@@ -42,7 +42,7 @@ function NoteCreate({ notes }) {
       <div className={styles.noteActions} >
         {showColorsPalette && <ColorsPalette setBackgroundColor={setBackgroundColor} setShowColorsPalette={setShowColorsPalette} showColorsPalette={showColorsPalette} />}
         <a onClick={() => setShowColorsPalette(!showColorsPalette)}>
-          <img src="src/assets/palette.svg" alt="palette color" />
+          <img src="/assets/palette.svg" alt="palette color" />
         </a>
         <button type='submit'>Keep it!</button>
       </div>

@@ -66,11 +66,11 @@ export function Dashboard({ username, setUsername }) {
 
             <div className={styles.barSide}>
                 <a className={`${clickChange === "Notes" && styles.select} ${styles.items}`} onClick={() => setClickChange("Notes")}>
-                    <img src="/src/assets/corchetes.svg" alt="" />
+                    <img src="/assets/corchetes.svg" alt="" />
                     <p>Notes</p>
                 </a>
                 <a className={`${clickChange !== "Notes" && styles.select} ${styles.items}`} onClick={() => setClickChange("Trash")}>
-                    <img src="/src/assets/delete.svg" alt="" />
+                    <img src="/assets/delete.svg" alt="" />
                     <p>Trash</p>
                 </a>
             </div>

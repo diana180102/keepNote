@@ -31,9 +31,9 @@ function NoteCard({ note, handleChangeColor, handleStatusNote, handlePermanentDe
           clickChange === "Notes"
             ?
             <a onClick={() => setShowColorsPalette(!showColorsPalette)}>
-              <img src="src/assets/palette.svg" alt="palette color" /> </a> :
+              <img src="/assets/palette.svg" alt="palette color" /> </a> :
             <a onClick={(event) => handleStatusNote(event, deletedState, setDeletedState, note)}>
-              <img src="src/assets/restore.svg" alt="restore icon" /> </a>
+              <img src="/assets/restore.svg" alt="restore icon" /> </a>
         }
 
         <a href="" onClick={(event) => {
@@ -44,7 +44,7 @@ function NoteCard({ note, handleChangeColor, handleStatusNote, handlePermanentDe
             handleStatusNote(event, deletedState, setDeletedState, note);
           }
         }}>
-          <img src="/src/assets/delete-grey.svg" alt="trash icon" />
+          <img src="/assets/delete-grey.svg" alt="trash icon" />
         </a>
       </div>
     </div>
